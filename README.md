@@ -15,6 +15,7 @@ Feature Engineering	- DebtRatioPerIncome = DebtRatio / (MonthlyIncome + 1)
 - AgeBucket created using pd.cut() to bin age into three groups: 0–30, 30–50, 50–100
 Resampling (Handling Imbalance)	Applied SMOTE (Synthetic Minority Over-sampling Technique) to balance the classes since defaults are often underrepresented.
 Train-Test Split	Data was split using train_test_split with stratification on the target column to maintain class distribution.
+
 🧠** 2. Model Selection and Rationale**
 
 Aspect	Details
